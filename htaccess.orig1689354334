@@ -1,0 +1,22 @@
+# This file was updated by Duplicator Pro on 2020-06-14 11:01:17.
+
+# BEGIN WordPress
+# Строки между `BEGIN WordPress` и `END WordPress` были созданы автоматически.
+# Они могут быть изменены только фильтрами WordPress.
+# Все изменения между этими отметками будут перезаписаны.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+# BEGIN FRedirect_ErrorDocument
+# Строки между `BEGIN FRedirect_ErrorDocument` и `END FRedirect_ErrorDocument` были созданы автоматически.
+# Они могут быть изменены только фильтрами WordPress.
+# Все изменения между этими отметками будут перезаписаны.
+ErrorDocument 404 /index.php?error=404
+# END FRedirect_ErrorDocument
